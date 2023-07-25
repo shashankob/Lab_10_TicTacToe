@@ -83,7 +83,7 @@ public class TicTacToe {
 
                     if (isTie()) {
                         display();
-                        System.out.println("It's a tie!");
+                        System.out.println("The game is a tied!");
                         break;
                     }
 
@@ -93,7 +93,7 @@ public class TicTacToe {
                 }
             }
 
-            System.out.println("Do you want to play again? (y/n): ");
+            System.out.println("Play again? (y/n): ");
             String choice = scanner.next();
             playAgain = choice.equalsIgnoreCase("y");
         }
